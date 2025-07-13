@@ -1,0 +1,42 @@
+{
+  "name": "fallcentalert",
+  "version": "1.1.0",
+  "description": "실시간 폴센트 할인 알림 서비스 - 세션별 독립적인 알림 관리",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fallcent",
+    "deals",
+    "alerts",
+    "crawling",
+    "realtime",
+    "session-management"
+  ],
+  "author": "dilduck",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^21.0.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilduck/fallcentalert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dilduck/fallcentalert/issues"
+  },
+  "homepage": "https://github.com/dilduck/fallcentalert#readme"
+}
